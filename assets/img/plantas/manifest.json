@@ -1,0 +1,128 @@
+{
+  "aguaymanto": {
+    "slug": "aguaymanto",
+    "width": 800,
+    "height": 533,
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Blanka Luppová",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3APhysalis_peruviana_-_fruit.jpg"
+  },
+  "camu-camu": {
+    "slug": "camu-camu",
+    "width": 800,
+    "height": 600,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Claudia Esperanza Ríos ortiz",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3ACAMU_CAMU.jpg"
+  },
+  "carqueja": {
+    "slug": "carqueja",
+    "width": 800,
+    "height": 600,
+    "license": "CC BY-SA 2.5 br",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5/br/deed.en",
+    "artist": "Mateus Hidalgo",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3ABaccharis_trimera.jpg"
+  },
+  "chanca-piedra": {
+    "slug": "chanca-piedra",
+    "width": 800,
+    "height": 533,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "V C balakrishnan",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3APhyllanthus_niruri--43_%282%29.JPG_-_Photo_by_V_C_Balakrishnan.jpg"
+  },
+  "curcuma": {
+    "slug": "curcuma",
+    "width": 800,
+    "height": 329,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Simon A. Eugster",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3ACurcuma_longa_roots.jpg"
+  },
+  "graviola": {
+    "slug": "graviola",
+    "width": 800,
+    "height": 546,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "Tournasol7",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3AAnnona_muricata_in_Ste-Anne_Guadeloupe_%282%29.jpg"
+  },
+  "hercampuri": {
+    "slug": "hercampuri",
+    "width": 800,
+    "height": 600,
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "artist": "R. Mathis",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3AGentianella_alborosea.JPG"
+  },
+  "maca": {
+    "slug": "maca",
+    "width": 800,
+    "height": 533,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Frank Vincentz",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3AKluse_-_Lepidium_meyenii_-_Maca_01_ies.jpg"
+  },
+  "manayupa": {
+    "slug": "manayupa",
+    "width": 800,
+    "height": 531,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Roxana Sepúlveda",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3AManayupa_%28Desmodium_molliculum%29.jpg"
+  },
+  "moringa": {
+    "slug": "moringa",
+    "width": 800,
+    "height": 531,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Prenn",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3AMoringa_oleifera_01.JPG"
+  },
+  "quinoa": {
+    "slug": "quinoa",
+    "width": 800,
+    "height": 579,
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Roger Culos",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3AChenopodium_quinoa_-red_faro-_MHNT.BOT.2007.43.66.jpg"
+  },
+  "sacha-inchi": {
+    "slug": "sacha-inchi",
+    "width": 800,
+    "height": 533,
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Ministerio  de la Producción",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3AMinistro_P%C3%A9rez-Reyes_Domo_Per%C3%BA_Produce_impulsar%C3%A1_ventas_de_mipymes_de_caf%C3%A9%2C_cacao_y_alimentos_saludables_%2830405844957%29.jpg"
+  },
+  "una-de-gato": {
+    "slug": "una-de-gato",
+    "width": 800,
+    "height": 533,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Kristi Denby/Archivo Centro Takiwasi",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3ACorteza_y_espina_curva_de_u%C3%B1a_de_gato_%28Uncaria_tomentosa%29.jpg"
+  },
+  "yacon": {
+    "slug": "yacon",
+    "width": 800,
+    "height": 600,
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "peganum from Henfield, England",
+    "wiki_page": "https://commons.wikimedia.org/wiki/File%3ASmallanthus_sonchifolius_%26_Canna_x_ehemannii_%2810399257415%29.jpg"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "andropausia": {
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Difference_between_Estradiol_and_Testosterone_%28Functional_Groups%29.png/1280px-Difference_between_Estradiol_and_Testosterone_%28Functional_Groups%29.png",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Difference_between_Estradiol_and_Testosterone_%28Functional_Groups%29.png",
+    "title": "Difference between Estradiol and Testosterone (Functional Groups).png",
+    "artist": "SrKellyOP",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "desc_url": "https://commons.wikimedia.org/wiki/File:Difference_between_Estradiol_and_Testosterone_(Functional_Groups).png",
+    "source": "https://commons.wikimedia.org/wiki/File:Human_Blood_Test.jpg",
+    "author": "Anna Shvets"
+  },
+  "dolor-articulaciones": {
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Osteoarthritis_left_knee.jpg/1280px-Osteoarthritis_left_knee.jpg",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Osteoarthritis_left_knee.jpg",
+    "title": "Osteoarthritis left knee.jpg",
+    "artist": "James Heilman, MD",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "desc_url": "https://commons.wikimedia.org/wiki/File:Osteoarthritis_left_knee.jpg"
+  },
+  "glaucoma": {
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Anatomy_of_eye.jpg/1280px-Anatomy_of_eye.jpg",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Anatomy_of_eye.jpg",
+    "title": "Anatomy of eye.jpg",
+    "artist": "Philip W Augustino",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "desc_url": "https://commons.wikimedia.org/wiki/File:Anatomy_of_eye.jpg"
+  },
+  "hipertension": {
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Blood_pressure_measurement_Manila_CNE_01.jpg/1280px-Blood_pressure_measurement_Manila_CNE_01.jpg",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Blood_pressure_measurement_Manila_CNE_01.jpg",
+    "title": "Blood pressure measurement Manila CNE 01.jpg",
+    "artist": "CNEcija12345",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "desc_url": "https://commons.wikimedia.org/wiki/File:Blood_pressure_measurement_Manila_CNE_01.jpg"
+  },
+  "prediabetes": {
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Blausen_0301_Diabetes_GlucoseMonitoring.png",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Blausen_0301_Diabetes_GlucoseMonitoring.png",
+    "title": "Blausen 0301 Diabetes GlucoseMonitoring.png",
+    "artist": "BruceBlaus. When using this image in external sources it can be cited as:\n\nBlausen.com staff (2014). \"Medical gallery of Blausen Medical 2014\". WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.010. ISSN 2002-4436.",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "desc_url": "https://commons.wikimedia.org/wiki/File:Blausen_0301_Diabetes_GlucoseMonitoring.png"
+  },
+  "vejiga-hiperactiva": {
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Anatomy_and_physiology_of_animals_diagram_of_urinary_system_unlabeled.JPG",
+    "full_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Anatomy_and_physiology_of_animals_diagram_of_urinary_system_unlabeled.JPG",
+    "title": "Anatomy and physiology of animals diagram of urinary system unlabeled.JPG",
+    "artist": "Rlawson at English Wikibooks",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "desc_url": "https://commons.wikimedia.org/wiki/File:Anatomy_and_physiology_of_animals_diagram_of_urinary_system_unlabeled.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:2605_The_Bladder.jpg",
+    "author": "OpenStax"
+  }
+}
