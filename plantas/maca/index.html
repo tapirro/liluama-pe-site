@@ -89,11 +89,34 @@ hr{border:none;border-top:1px solid #eee;margin:1.5rem 0}
 .qa-list li{margin-bottom:0.5rem;font-size:0.95rem;line-height:1.6;color:#374151;position:relative;padding-left:0.5rem}
 .qa-list li::before{content:"→";position:absolute;left:-1rem;color:#22c55e;font-weight:bold}
 .qa-disclaimer{font-size:0.75rem;color:#6b7280;margin:0.75rem 0 0;font-style:italic}
+
+/* Site navigation */
+.site-nav{position:sticky;top:0;z-index:100;background:#1e3a2f;padding:0.5rem 1rem;
+  margin:-1.5rem -1.5rem 1rem;display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap}
+.site-nav a{color:#d1fae5;text-decoration:none;font-size:0.9rem;font-family:system-ui,sans-serif}
+.site-nav a:hover{color:#fff;text-decoration:underline}
+.site-nav .nav-brand{font-weight:700;font-size:1rem;color:#fff}
+.site-nav .nav-links{display:flex;gap:1rem;flex-wrap:wrap}
+
+/* Bottom navigation panel */
+.nav-panel{margin:2rem -1.5rem 0;padding:1.5rem;background:#f8faf9;border-top:2px solid #1e3a2f}
+.nav-panel h3{font-size:1rem;color:#1e3a2f;margin:0 0 0.5rem;font-family:system-ui,sans-serif}
+.nav-panel .nav-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:0.3rem}
+.nav-panel .nav-grid a{font-size:0.85rem;color:#2563eb;padding:0.2rem 0;font-family:system-ui,sans-serif}
+.nav-panel .nav-section{margin-bottom:1rem}
 </style>
 <meta name="keywords" content="maca beneficios, maca beneficios mujer, maca beneficios hombres">
     <link rel="preload" as="image" href="/assets/img/plantas/maca.jpg" imagesrcset="/assets/img/plantas/maca.webp" imagesizes="100vw" type="image/webp">
 </head>
 <body>
+<nav class="site-nav">
+<a href="/" class="nav-brand">🌿 Herbario Andino</a>
+<div class="nav-links">
+<a href="/plantas/">Plantas</a>
+<a href="/condiciones/">Condiciones</a>
+<a href="/acerca/">Acerca</a>
+</div>
+</nav>
 <nav class="breadcrumb">
 <a href="/">Inicio</a> &rsaquo;
 <a href="/plantas/">Plantas Medicinales</a> &rsaquo;
@@ -425,6 +448,20 @@ Las plantas medicinales pueden tener contraindicaciones e interacciones con medi
 </p>
 <p style="margin-top:0.5rem;font-size:0.85rem;color:#6b7280">Suplemento natural elaborado en Peru con hierbas amazonicas y andinas.</p>
 </section>
+<div class="nav-panel">
+<div class="nav-section">
+<h3>🌱 Plantas Medicinales</h3>
+<div class="nav-grid">
+<a href="/plantas/aguaymanto/">Aguaymanto</a><a href="/plantas/camu-camu/">Camu Camu</a><a href="/plantas/carqueja/">Carqueja</a><a href="/plantas/chanca-piedra/">Chanca Piedra</a><a href="/plantas/curcuma/">Cúrcuma</a><a href="/plantas/graviola/">Graviola</a><a href="/plantas/hercampuri/">Hercampuri</a><strong>Maca</strong><a href="/plantas/manayupa/">Manayupa</a><a href="/plantas/moringa/">Moringa</a><a href="/plantas/quinoa/">Quinoa</a><a href="/plantas/sacha-inchi/">Sacha Inchi</a><a href="/plantas/una-de-gato/">Uña de Gato</a><a href="/plantas/yacon/">Yacón</a>
+</div>
+</div>
+<div class="nav-section">
+<h3>🩺 Condiciones de Salud</h3>
+<div class="nav-grid">
+<a href="/condiciones/andropausia/">Andropausia</a><a href="/condiciones/dolor-articulaciones/">Dolor de Articulaciones</a><a href="/condiciones/glaucoma/">Glaucoma</a><a href="/condiciones/hipertension/">Hipertensión</a><a href="/condiciones/prediabetes/">Prediabetes</a><a href="/condiciones/vejiga-hiperactiva/">Vejiga Hiperactiva</a>
+</div>
+</div>
+</div>
 <footer>
 <p>&copy; 2026 Herbario Andino &mdash; Enciclopedia de plantas medicinales andinas y amazonicas.</p>
 <p><a href="/">Inicio</a> | <a href="/plantas/">Plantas</a> | <a href="/condiciones/">Condiciones</a> | <a href="/acerca/">Acerca de</a></p>
