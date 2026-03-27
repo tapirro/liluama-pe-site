@@ -296,18 +296,6 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
   *,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}
 }
 
-    .crosslink-section { margin: 2rem 0; padding: 1.5rem; background: #f8faf8;
-        border-left: 4px solid #1a5632; border-radius: 0 8px 8px 0; }
-    .crosslink-section h3 { font-family: Georgia, serif; color: #1a5632; margin: 0 0 0.5rem; font-size: 1.1rem; }
-    .crosslink-intro { font-size: 0.9rem; color: #555; margin: 0 0 0.75rem; }
-    .crosslink-list { list-style: none; padding: 0; margin: 0; }
-    .crosslink-list li { padding: 0.4rem 0; border-bottom: 1px solid #e8e8e8; }
-    .crosslink-list li:last-child { border-bottom: none; }
-    .crosslink-list a { color: #1a5632; font-weight: 600; text-decoration: none; }
-    .crosslink-list a:hover { text-decoration: underline; }
-    .crosslink-desc { font-size: 0.85rem; color: #666; }
-    .crosslink-source { margin: 0.75rem 0 0; font-size: 0.8rem; color: #888; }
-    .crosslink-source a { color: #1a5632; }
 
 /* Site navigation */
 .site-nav{position:sticky;top:0;z-index:100;background:#1e3a2f;padding:0.5rem 1rem;
@@ -323,6 +311,19 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
 .nav-panel .nav-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:0.3rem}
 .nav-panel .nav-grid a{font-size:0.85rem;color:#2563eb;padding:0.2rem 0;font-family:system-ui,sans-serif}
 .nav-panel .nav-section{margin-bottom:1rem}
+
+    .crosslink-section { margin: 2rem 0; padding: 1.5rem; background: #f8faf8;
+        border-left: 4px solid #1a5632; border-radius: 0 8px 8px 0; }
+    .crosslink-section h3 { font-family: Georgia, serif; color: #1a5632; margin: 0 0 0.5rem; font-size: 1.1rem; }
+    .crosslink-intro { font-size: 0.9rem; color: #555; margin: 0 0 0.75rem; }
+    .crosslink-list { list-style: none; padding: 0; margin: 0; }
+    .crosslink-list li { padding: 0.4rem 0; border-bottom: 1px solid #e8e8e8; }
+    .crosslink-list li:last-child { border-bottom: none; }
+    .crosslink-list a { color: #1a5632; font-weight: 600; text-decoration: none; }
+    .crosslink-list a:hover { text-decoration: underline; }
+    .crosslink-desc { font-size: 0.85rem; color: #666; }
+    .crosslink-source { margin: 0.75rem 0 0; font-size: 0.8rem; color: #888; }
+    .crosslink-source a { color: #1a5632; }
 </style>
     <link rel="preload" as="image" href="assets/img/liluama-product.png" imagesrcset="assets/img/liluama-product.webp" imagesizes="100vw" type="image/webp">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Liluama Perú", "url": "https://liluama.pe", "alternateName": "Liluama Perú"}</script>
@@ -720,6 +721,20 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
 <li><a href="https://www.kettochi.co/">Kettochi</a> — Suplemento para control de glucosa</li>
 </ul>
 </section>
+    <div class="nav-panel">
+<div class="nav-section">
+<h3>🌱 Plantas Medicinales</h3>
+<div class="nav-grid">
+<a href="/plantas/aguaymanto/">Aguaymanto</a><a href="/plantas/camu-camu/">Camu Camu</a><a href="/plantas/carqueja/">Carqueja</a><a href="/plantas/chanca-piedra/">Chanca Piedra</a><a href="/plantas/curcuma/">Cúrcuma</a><a href="/plantas/graviola/">Graviola</a><a href="/plantas/hercampuri/">Hercampuri</a><a href="/plantas/maca/">Maca</a><a href="/plantas/manayupa/">Manayupa</a><a href="/plantas/moringa/">Moringa</a><a href="/plantas/quinoa/">Quinoa</a><a href="/plantas/sacha-inchi/">Sacha Inchi</a><a href="/plantas/una-de-gato/">Uña de Gato</a><a href="/plantas/yacon/">Yacón</a>
+</div>
+</div>
+<div class="nav-section">
+<h3>🩺 Condiciones de Salud</h3>
+<div class="nav-grid">
+<a href="/condiciones/andropausia/">Andropausia</a><a href="/condiciones/dolor-articulaciones/">Dolor de Articulaciones</a><a href="/condiciones/glaucoma/">Glaucoma</a><a href="/condiciones/hipertension/">Hipertensión</a><a href="/condiciones/prediabetes/">Prediabetes</a><a href="/condiciones/vejiga-hiperactiva/">Vejiga Hiperactiva</a>
+</div>
+</div>
+</div>
 
             <div class="crosslink-section">
                 <h3>Investigacion cientifica</h3>
@@ -737,24 +752,14 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
                     <a href="https://botanicaandina.com/herramientas/interacciones/" target="_blank" rel="noopener">Verificador de interacciones</a>
                     <span class="crosslink-desc"> — Verifica si tus suplementos interactuan con algun medicamento</span>
                 </li>
+                <li>
+                    <a href="https://botanicaandina.com/herramientas/verificador/" target="_blank" rel="noopener">Verificador de suplementos</a>
+                    <span class="crosslink-desc"> — Consulta la evidencia cientifica de curcuma, colageno y suplementos antiinflamatorios</span>
+                </li>
                 </ul>
                 <p class="crosslink-source">Fuente: <a href="https://botanicaandina.com" target="_blank" rel="noopener">Botanica Andina</a> — portal de salud basado en evidencia cientifica.</p>
             </div>
-    <div class="nav-panel">
-<div class="nav-section">
-<h3>🌱 Plantas Medicinales</h3>
-<div class="nav-grid">
-<a href="/plantas/aguaymanto/">Aguaymanto</a><a href="/plantas/camu-camu/">Camu Camu</a><a href="/plantas/carqueja/">Carqueja</a><a href="/plantas/chanca-piedra/">Chanca Piedra</a><a href="/plantas/curcuma/">Cúrcuma</a><a href="/plantas/graviola/">Graviola</a><a href="/plantas/hercampuri/">Hercampuri</a><a href="/plantas/maca/">Maca</a><a href="/plantas/manayupa/">Manayupa</a><a href="/plantas/moringa/">Moringa</a><a href="/plantas/quinoa/">Quinoa</a><a href="/plantas/sacha-inchi/">Sacha Inchi</a><a href="/plantas/una-de-gato/">Uña de Gato</a><a href="/plantas/yacon/">Yacón</a>
-</div>
-</div>
-<div class="nav-section">
-<h3>🩺 Condiciones de Salud</h3>
-<div class="nav-grid">
-<a href="/condiciones/andropausia/">Andropausia</a><a href="/condiciones/dolor-articulaciones/">Dolor de Articulaciones</a><a href="/condiciones/glaucoma/">Glaucoma</a><a href="/condiciones/hipertension/">Hipertensión</a><a href="/condiciones/prediabetes/">Prediabetes</a><a href="/condiciones/vejiga-hiperactiva/">Vejiga Hiperactiva</a>
-</div>
-</div>
-</div>
-<footer class="footer">
+    <footer class="footer">
   <div class="footer-inner">
     <div class="footer-links">
       <a href="/">Inicio</a>
