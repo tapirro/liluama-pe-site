@@ -206,6 +206,11 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
 .ingredient-role{font-size:0.8rem;color:var(--slate-500);margin-left:auto;flex-shrink:0}
 .ingredients-visual{display:flex;justify-content:center;align-items:center;position:relative}
 .ingredients-visual img{max-width:280px;width:100%;height:auto;filter:drop-shadow(0 20px 40px rgba(0,0,0,0.15))}
+.ingredients-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;max-width:360px}
+.ingredient-img-card{text-align:center;background:var(--slate-50);border-radius:12px;padding:0.5rem;border:1px solid var(--slate-200);transition:border-color 0.3s,transform 0.3s}
+.ingredient-img-card:hover{border-color:var(--teal-500);transform:translateY(-4px)}
+.ingredient-img-card img{width:100%;height:auto;border-radius:8px;max-width:160px}
+.ingredient-img-label{display:block;font-weight:700;font-size:0.85rem;color:var(--teal-600);margin-top:0.3rem}
 
 /* HOW IT WORKS */
 .how{padding:var(--section-pad) 1.5rem;background:linear-gradient(180deg,var(--teal-50),var(--white))}
@@ -309,6 +314,8 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
   .ingredients-inner{grid-template-columns:1fr}
   .ingredients-visual{order:-1}
   .ingredients-visual img{max-width:180px}
+  .ingredients-grid{max-width:300px;gap:0.75rem}
+  .ingredient-img-card img{max-width:120px}
   .steps{grid-template-columns:1fr;max-width:400px;margin-left:auto;margin-right:auto}
   .steps::before{display:none}
   .solution-box{grid-template-columns:1fr;text-align:center}
@@ -623,7 +630,24 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
       </div>
     </div>
     <div class="ingredients-visual reveal">
-      <picture><source srcset="assets/img/liluama-product.webp" type="image/webp"><img src="assets/img/liluama-product.png" alt="Liluama — ingredientes naturales amazonicos" width="400" height="471" loading="lazy" decoding="async"></picture>
+      <div class="ingredients-grid">
+        <div class="ingredient-img-card">
+          <img src="assets/img/graviola.png" alt="Graviola — Annona muricata, antioxidante amazónico" width="256" height="256" loading="lazy" decoding="async">
+          <span class="ingredient-img-label">Graviola</span>
+        </div>
+        <div class="ingredient-img-card">
+          <img src="assets/img/noni.png" alt="Noni — Morinda citrifolia, antiinflamatorio tropical" width="256" height="256" loading="lazy" decoding="async">
+          <span class="ingredient-img-label">Noni</span>
+        </div>
+        <div class="ingredient-img-card">
+          <img src="assets/img/manayupa.png" alt="Manayupa — Desmodium molliculum, diurético andino" width="256" height="256" loading="lazy" decoding="async">
+          <span class="ingredient-img-label">Manayupa</span>
+        </div>
+        <div class="ingredient-img-card">
+          <img src="assets/img/flor-blanca.png" alt="Flor Blanca — Robinia pseudoacacia, antiséptico peruano" width="256" height="256" loading="lazy" decoding="async">
+          <span class="ingredient-img-label">Flor Blanca</span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
