@@ -750,6 +750,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
       var sid='s_'+Date.now()+'_'+Math.random().toString(36).substr(2,6);
       var visId=(function(){try{var v=localStorage.getItem('hs_vid');if(!v){v='v_'+Date.now()+'_'+Math.random().toString(36).substr(2,8);localStorage.setItem('hs_vid',v)}return v}catch(e){return 'v_'+Date.now()}})();
       var vn=(function(){try{var n=parseInt(localStorage.getItem('hs_vn')||'0')+1;localStorage.setItem('hs_vn',String(n));return n}catch(e){return 1}})();
+      var embedV=13;
       function beacon(path,data){
         if(API){try{navigator.sendBeacon(API+path,JSON.stringify(data))}catch(e){xhrFallback(path,data)}}
         else{q.push([path,data])}
@@ -802,7 +803,6 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
       var engaged={};
       var engageCount=0;
       var formShown=false;
-      var embedV=12;
       var hasPlayed=false;
       function track(evt,vid,src,extra){
         var data={event:evt,video:vid,site:location.hostname,source:src,ts:Date.now(),embed_v:embedV,session_id:sid,visitor_id:visId,visit_number:vn};
@@ -934,6 +934,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VideoObject", "name": "Lo que no te contaron sobre la cistitis", "description": "Video informativo sobre Liluama - Lo que no te contaron sobre la cistitis", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/46_curiosity_gap_education_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/46_curiosity_gap_education_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "¿Infección urinaria? Mira esto", "description": "Video informativo sobre Liluama - ¿Infección urinaria? Mira esto", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/64_question_education_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/64_question_education_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "Solución natural para el bienestar urinario", "description": "Video informativo sobre Liluama - Solución natural para el bienestar urinario", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/38_doctor_says_problem_solution_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/38_doctor_says_problem_solution_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "Mitos sobre las infecciones urinarias", "description": "Video informativo sobre Liluama - Mitos sobre las infecciones urinarias", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/57_myth_bust_myth_debunk_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/57_myth_bust_myth_debunk_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}]}</script>
   <!-- hilart-shorts-video-embed -->
 
+      
       
       
       
