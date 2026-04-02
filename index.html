@@ -840,7 +840,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
       var sid='s_'+Date.now()+'_'+Math.random().toString(36).substr(2,6);
       var visId=(function(){try{var v=localStorage.getItem('hs_vid');if(!v){v='v_'+Date.now()+'_'+Math.random().toString(36).substr(2,8);localStorage.setItem('hs_vid',v)}return v}catch(e){return 'v_'+Date.now()}})();
       var vn=(function(){try{var n=parseInt(localStorage.getItem('hs_vn')||'0')+1;localStorage.setItem('hs_vn',String(n));return n}catch(e){return 1}})();
-      var embedV=22;
+      var embedV=23;
       var ua=navigator.userAgent||'';
       var ref=document.referrer||'';
       var sw=screen.width||0;
@@ -898,8 +898,10 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
       var engaged={};
       var engageCount=0;
       var formShown=false;
+      var formDismissed=false;
       var hasPlayed=false;
       var hasUnmuted=false;
+      var playStartTime=0;
       function track(evt,vid,src,extra){
         var data={event:evt,video:vid,site:location.hostname,source:src,ts:Date.now(),embed_v:embedV,session_id:sid,visitor_id:visId,visit_number:vn,ua:ua,ref:ref,sw:sw};
         if(extra)for(var k in extra)data[k]=extra[k];
@@ -914,13 +916,29 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
         var f=document.getElementById('embed-lead-form');
         if(f){f.style.display='block';setTimeout(function(){f.style.transform='translate(-50%,0)'},50)}
         var cl=document.getElementById('embed-lead-close');
-        if(cl){
-          cl.style.opacity='1';
-          cl.addEventListener('click',function(){f.style.transform='translate(-50%,120%)';setTimeout(function(){f.style.display='none'},400);track('form_dismissed','',location.hostname)});
+        if(cl&&!cl._bound){
+          cl._bound=true;
+          cl.addEventListener('click',function(){
+            f.style.transform='translate(-50%,120%)';
+            setTimeout(function(){f.style.display='none'},400);
+            formDismissed=true;
+            track('form_dismissed','',location.hostname);
+            setTimeout(function(){formShown=false},30000);
+          });
         }
         var skip=document.getElementById('embed-lead-skip');
-        if(skip)skip.addEventListener('click',function(e){e.preventDefault();f.style.transform='translate(-50%,120%)';setTimeout(function(){f.style.display='none'},400);track('form_dismissed','skip',location.hostname)});
-        track('form_show','',location.hostname);
+        if(skip&&!skip._bound){
+          skip._bound=true;
+          skip.addEventListener('click',function(e){
+            e.preventDefault();
+            f.style.transform='translate(-50%,120%)';
+            setTimeout(function(){f.style.display='none'},400);
+            formDismissed=true;
+            track('form_dismissed','skip',location.hostname);
+            setTimeout(function(){formShown=false},30000);
+          });
+        }
+        track('form_show',formDismissed?'reshow':'',location.hostname);
       }
       var io=new IntersectionObserver(function(entries){
         entries.forEach(function(e){
@@ -954,12 +972,16 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
             engaged[vid]=1;
             engageCount++;
             hasPlayed=true;
+            if(!playStartTime)playStartTime=Date.now();
             track('play',vid,v.getAttribute('data-src'));
             }
           }
         });
         v.addEventListener('ended',function(){
           if(hasPlayed)showLeadForm();
+        });
+        v.addEventListener('timeupdate',function(){
+          if(hasPlayed&&playStartTime&&(Date.now()-playStartTime)>8000)showLeadForm();
         });
       });
       // Lead form submission
@@ -1127,6 +1149,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VideoObject", "name": "¿Molestias urinarias que no te dejan en paz?", "description": "Video informativo sobre Liluama - ¿Molestias urinarias que no te dejan en paz?", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/109_hero_liluama_c267.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/109_hero_liluama_c267.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "Lo que no te contaron sobre la cistitis", "description": "Video informativo sobre Liluama - Lo que no te contaron sobre la cistitis", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/46_curiosity_gap_education_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/46_curiosity_gap_education_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "¿Infección urinaria? Mira esto", "description": "Video informativo sobre Liluama - ¿Infección urinaria? Mira esto", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/64_question_education_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/64_question_education_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "Solución natural para el bienestar urinario", "description": "Video informativo sobre Liluama - Solución natural para el bienestar urinario", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/38_doctor_says_problem_solution_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/38_doctor_says_problem_solution_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "3 hábitos para prevenir la cistitis", "description": "Video informativo sobre Liluama - 3 hábitos para prevenir la cistitis", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/30_list_listicle_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/30_list_listicle_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "Lo que nadie te dice sobre la cistitis", "description": "Video informativo sobre Liluama - Lo que nadie te dice sobre la cistitis", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/23_shock_reveal_testimonial_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/23_shock_reveal_testimonial_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "Señales que tu cuerpo te envía", "description": "Video informativo sobre Liluama - Señales que tu cuerpo te envía", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/13_listicle_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/13_listicle_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "¿Por qué se repite la infección urinaria?", "description": "Video informativo sobre Liluama - ¿Por qué se repite la infección urinaria?", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/16_curiosity_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/16_curiosity_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}]}</script>
   <!-- hilart-shorts-video-embed -->
 
+      
       
       
       
