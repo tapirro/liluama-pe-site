@@ -739,8 +739,10 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
         var x=new XMLHttpRequest();
         x.open('POST',API+path);
         x.setRequestHeader('Content-Type','application/json');
+        x.timeout=10000;
         x.onload=function(){cb&&cb(x.status)};
         x.onerror=function(){cb&&cb(0)};
+        x.ontimeout=function(){cb&&cb(0)};
         x.send(JSON.stringify(data));
       }
       fetch('https://tapirro.github.io/hilart-shorts/api-config.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(d){
@@ -755,7 +757,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
       var engaged={};
       var engageCount=0;
       var formShown=false;
-      var embedV=5;
+      var embedV=6;
       var viewTimer=null;
       var viewStart=0;
       function track(evt,vid,src,extra){
@@ -772,7 +774,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
         var f=document.getElementById('embed-lead-form');
         if(f){f.style.display='block';setTimeout(function(){f.style.transform='translateY(0)'},50)}
         var cl=document.getElementById('embed-lead-close');
-        if(cl)cl.addEventListener('click',function(){f.style.transform='translateY(100%)';setTimeout(function(){f.style.display='none'},400)});
+        if(cl)cl.addEventListener('click',function(){f.style.transform='translateY(100%)';setTimeout(function(){f.style.display='none'},400);track('form_dismissed','',location.hostname)});
         track('form_show','',location.hostname);
       }
       var io=new IntersectionObserver(function(entries){
@@ -835,6 +837,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
           }else{
             btn.textContent='Enviar';btn.disabled=false;
             form.querySelector('.embed-lead-error').textContent='Error. Int\u00e9ntalo de nuevo.';
+            track('form_error','status_'+status,location.hostname);
           }
         });
       });
@@ -843,6 +846,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VideoObject", "name": "Lo que no te contaron sobre la cistitis", "description": "Video informativo sobre Liluama - Lo que no te contaron sobre la cistitis", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/46_curiosity_gap_education_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/46_curiosity_gap_education_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "¿Infección urinaria? Mira esto", "description": "Video informativo sobre Liluama - ¿Infección urinaria? Mira esto", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/64_question_education_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/64_question_education_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "Solución natural para el bienestar urinario", "description": "Video informativo sobre Liluama - Solución natural para el bienestar urinario", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/38_doctor_says_problem_solution_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/38_doctor_says_problem_solution_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "Mitos sobre las infecciones urinarias", "description": "Video informativo sobre Liluama - Mitos sobre las infecciones urinarias", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/57_myth_bust_myth_debunk_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/57_myth_bust_myth_debunk_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}]}</script>
   <!-- hilart-shorts-video-embed -->
 
+      
       
       
       
