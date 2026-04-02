@@ -826,8 +826,11 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
         if(!phone||phone.length<7)return;
         var btn=form.querySelector('button');
         btn.textContent='Enviando...';btn.disabled=true;
+        var tld=location.hostname.split('.').pop();
+        var country=tld==='pe'?'Peru':tld==='co'?'Colombia':tld==='com'?'LATAM':'';
         postJSON('/api/leads',{
-          name:'Embed lead',phone:phone,email:'',
+          name:'Embed lead',phone:phone,email:'',country:country,
+          product:'Liluama',
           session_id:sid,visitor_id:visId,visit_number:vn,slides_viewed:engageCount,
           source:location.hostname,
           utm_source:'embed',utm_medium:'video',utm_campaign:'infeccion-urinaria',
@@ -848,6 +851,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VideoObject", "name": "Lo que no te contaron sobre la cistitis", "description": "Video informativo sobre Liluama - Lo que no te contaron sobre la cistitis", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/46_curiosity_gap_education_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/46_curiosity_gap_education_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "¿Infección urinaria? Mira esto", "description": "Video informativo sobre Liluama - ¿Infección urinaria? Mira esto", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/64_question_education_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/64_question_education_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "Solución natural para el bienestar urinario", "description": "Video informativo sobre Liluama - Solución natural para el bienestar urinario", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/38_doctor_says_problem_solution_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/38_doctor_says_problem_solution_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "Mitos sobre las infecciones urinarias", "description": "Video informativo sobre Liluama - Mitos sobre las infecciones urinarias", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/57_myth_bust_myth_debunk_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/57_myth_bust_myth_debunk_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}]}</script>
   <!-- hilart-shorts-video-embed -->
 
+      
       
       
       
