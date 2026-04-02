@@ -750,7 +750,9 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
       var sid='s_'+Date.now()+'_'+Math.random().toString(36).substr(2,6);
       var visId=(function(){try{var v=localStorage.getItem('hs_vid');if(!v){v='v_'+Date.now()+'_'+Math.random().toString(36).substr(2,8);localStorage.setItem('hs_vid',v)}return v}catch(e){return 'v_'+Date.now()}})();
       var vn=(function(){try{var n=parseInt(localStorage.getItem('hs_vn')||'0')+1;localStorage.setItem('hs_vn',String(n));return n}catch(e){return 1}})();
-      var embedV=13;
+      var embedV=14;
+      var hadInteraction=false;
+      ['click','touchstart','scroll','mousemove','keydown'].forEach(function(evt){document.addEventListener(evt,function(){hadInteraction=true},{once:true,passive:true})});
       function beacon(path,data){
         if(API){try{navigator.sendBeacon(API+path,JSON.stringify(data))}catch(e){xhrFallback(path,data)}}
         else{q.push([path,data])}
@@ -917,12 +919,13 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
         document.body.appendChild(t);
         setTimeout(function(){t.style.opacity='0';setTimeout(function(){t.remove()},300)},2000);
       }
-      // Scroll-past trigger: show form when user scrolls past video section (even without play)
+      // Scroll-past trigger: show form when real user scrolls past video section
+      // Gated on hadInteraction to prevent bot/crawler form_show inflation
       var section=document.querySelector('.video-embed-section');
       if(section){
         var scrollObs=new IntersectionObserver(function(entries){
           entries.forEach(function(e){
-            if(!e.isIntersecting&&e.boundingClientRect.top<0){
+            if(!e.isIntersecting&&e.boundingClientRect.top<0&&hadInteraction){
               showLeadForm();scrollObs.disconnect();
             }
           });
@@ -934,6 +937,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VideoObject", "name": "Lo que no te contaron sobre la cistitis", "description": "Video informativo sobre Liluama - Lo que no te contaron sobre la cistitis", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/46_curiosity_gap_education_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/46_curiosity_gap_education_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "¿Infección urinaria? Mira esto", "description": "Video informativo sobre Liluama - ¿Infección urinaria? Mira esto", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/64_question_education_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/64_question_education_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "Solución natural para el bienestar urinario", "description": "Video informativo sobre Liluama - Solución natural para el bienestar urinario", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/38_doctor_says_problem_solution_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/38_doctor_says_problem_solution_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "Mitos sobre las infecciones urinarias", "description": "Video informativo sobre Liluama - Mitos sobre las infecciones urinarias", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/57_myth_bust_myth_debunk_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/57_myth_bust_myth_debunk_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}]}</script>
   <!-- hilart-shorts-video-embed -->
 
+      
       
       
       
