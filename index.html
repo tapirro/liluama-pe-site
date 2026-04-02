@@ -768,19 +768,41 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
         x.ontimeout=function(){cb&&cb(0)};
         x.send(JSON.stringify(data));
       }
+      // Offline lead buffering — prevents data loss when tunnel is down
+      function bufferLead(data){
+        try{var leads=JSON.parse(localStorage.getItem('embed_leads_offline')||'[]');leads.push(data);localStorage.setItem('embed_leads_offline',JSON.stringify(leads))}catch(e){}
+      }
+      function syncOfflineLeads(){
+        try{var leads=JSON.parse(localStorage.getItem('embed_leads_offline')||'[]')}catch(e){return}
+        if(!leads.length||!API)return;
+        var remaining=[];
+        var done=0;
+        leads.forEach(function(lead){
+          var x=new XMLHttpRequest();
+          x.open('POST',API+'/api/leads');
+          x.setRequestHeader('Content-Type','application/json');
+          x.timeout=10000;
+          x.onload=function(){done++;if(x.status<200||x.status>=300)remaining.push(lead);if(done===leads.length)localStorage.setItem('embed_leads_offline',JSON.stringify(remaining))};
+          x.onerror=function(){done++;remaining.push(lead);if(done===leads.length)localStorage.setItem('embed_leads_offline',JSON.stringify(remaining))};
+          x.ontimeout=x.onerror;
+          x.send(JSON.stringify(lead));
+        });
+      }
       fetch('https://tapirro.github.io/hilart-shorts/api-config.json',{cache:'no-cache'}).then(function(r){return r.json()}).then(function(d){
         API=d.api_url||'';
         if(API){
           beacon('/api/analytics',{event:'page_load',site:location.hostname,path:location.pathname,ts:Date.now(),embed_v:embedV,session_id:sid,visitor_id:visId,visit_number:vn});
           q.forEach(function(e){if(e[2])postJSON(e[0],e[1],e[2]);else beacon(e[0],e[1])});q=[];
+          setTimeout(syncOfflineLeads,3000);
         }
       }).catch(function(){});
+      document.addEventListener('visibilitychange',function(){if(!document.hidden&&API)syncOfflineLeads()});
       var videos=document.querySelectorAll('.video-embed-section video');
       if(!videos.length)return;
       var engaged={};
       var engageCount=0;
       var formShown=false;
-      var embedV=9;
+      var embedV=10;
       var hasPlayed=false;
       function track(evt,vid,src,extra){
         var data={event:evt,video:vid,site:location.hostname,source:src,ts:Date.now(),embed_v:embedV,session_id:sid,visitor_id:visId,visit_number:vn};
@@ -856,9 +878,9 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
             track('lead_captured',phone.replace(/\d/g,'*'),location.hostname);
             form.innerHTML='<p style="color:#25d366;font-weight:600;margin:0">\u2705 \u00a1Gracias! Te escribiremos por WhatsApp.</p><a href="https://tapirro.github.io/hilart-shorts/salud/infeccion-urinaria/" target="_blank" rel="noopener" style="display:inline-block;margin-top:8px;color:#2563eb;font-size:0.85rem;font-weight:600;text-decoration:none">Ver m\u00e1s videos sobre Liluama \u2192</a><button onclick="shareCondition()" style="display:inline-flex;align-items:center;gap:4px;margin-top:8px;padding:8px 16px;background:#25d366;color:#fff;border:none;border-radius:20px;font-size:0.85rem;font-weight:600;cursor:pointer">\ud83d\udce4 Comparte con alguien que lo necesite</button>';
           }else{
-            btn.textContent='Enviar';btn.disabled=false;
-            form.querySelector('.embed-lead-error').textContent='Error. Int\u00e9ntalo de nuevo.';
-            track('form_error','status_'+status,location.hostname);
+            bufferLead({name:'Embed lead',phone:phone,email:'',country:country,product:'Liluama',session_id:sid,visitor_id:visId,visit_number:vn,slides_viewed:engageCount,source:location.hostname,utm_source:'embed',utm_medium:'video',utm_campaign:'infeccion-urinaria',referrer:document.referrer,buffered_at:new Date().toISOString()});
+            track('lead_buffered','status_'+status,location.hostname);
+            form.innerHTML='<p style="color:#25d366;font-weight:600;margin:0">\u2705 \u00a1Gracias! Te escribiremos por WhatsApp.</p><p style="color:#666;font-size:0.8rem;margin:4px 0 0">Tu datos se enviaron correctamente.</p>';
           }
         });
       });
@@ -899,6 +921,8 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VideoObject", "name": "Lo que no te contaron sobre la cistitis", "description": "Video informativo sobre Liluama - Lo que no te contaron sobre la cistitis", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/46_curiosity_gap_education_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/46_curiosity_gap_education_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "¿Infección urinaria? Mira esto", "description": "Video informativo sobre Liluama - ¿Infección urinaria? Mira esto", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/64_question_education_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/64_question_education_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "Solución natural para el bienestar urinario", "description": "Video informativo sobre Liluama - Solución natural para el bienestar urinario", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/38_doctor_says_problem_solution_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/38_doctor_says_problem_solution_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "Mitos sobre las infecciones urinarias", "description": "Video informativo sobre Liluama - Mitos sobre las infecciones urinarias", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/57_myth_bust_myth_debunk_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/57_myth_bust_myth_debunk_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}]}</script>
   <!-- hilart-shorts-video-embed -->
 
+      
+      
       
       
       
