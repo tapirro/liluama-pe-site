@@ -795,11 +795,11 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
       </div>
       <div style="padding:14px 16px;background:#e5ddd5">
         <div style="background:#dcf8c6;border-radius:0 8px 8px 8px;padding:10px 12px;margin-bottom:8px;position:relative;max-width:90%">
-          <p style="margin:0;font-size:0.9rem;color:#303030;line-height:1.4">Hola! Tengo tips para prevenir infecciones urinarias de forma natural. ¿Te los envío?</p>
-          <p style="margin:4px 0 0;font-size:0.78rem;color:#667781">Higiene + alimentación + prevención por WhatsApp</p>
+          <p style="margin:0;font-size:0.9rem;color:#303030;line-height:1.4">Hola! Tengo una guía gratuita con tips para prevenir infecciones urinarias.</p>
+          <p style="margin:4px 0 0;font-size:0.78rem;color:#667781">Higiene + alimentación + prevención — te la envío al instante</p>
         </div>
         <div style="background:#fff;border-radius:8px 0 8px 8px;padding:10px 12px;margin-left:auto;max-width:90%">
-          <form id="embed-lead-phone-form" style="display:flex;gap:8px;align-items:center">
+          <form id="embed-lead-phone-form" style="display:none;gap:8px;align-items:center">
             <input name="phone" type="tel" placeholder="\ud83d\udcf1 912 345 678" required minlength="7"
               style="flex:1;padding:10px 12px;border:1.5px solid #ddd;border-radius:20px;font-size:0.95rem;outline:none;background:#f9f9f9">
             <button type="submit"
@@ -807,7 +807,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
               <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
             </button>
           </form>
-          <form id="embed-lead-email-form" style="display:none;gap:8px;align-items:center">
+          <form id="embed-lead-email-form" style="display:flex;gap:8px;align-items:center">
             <input name="email" type="email" placeholder="\u2709\ufe0f tu@email.com" required
               style="flex:1;padding:10px 12px;border:1.5px solid #ddd;border-radius:20px;font-size:0.95rem;outline:none;background:#f9f9f9">
             <button type="submit"
@@ -816,7 +816,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
             </button>
           </form>
           <p class="embed-lead-error" style="margin:4px 0 0;font-size:0.72rem;color:#dc2626"></p>
-          <a id="embed-lead-toggle" href="#" style="display:block;margin-top:6px;font-size:0.72rem;color:#2563eb;text-decoration:none;text-align:right">\u00bfPrefieres email?</a>
+          <a id="embed-lead-toggle" href="#" style="display:block;margin-top:6px;font-size:0.72rem;color:#2563eb;text-decoration:none;text-align:right">\u00bfPrefieres WhatsApp?</a>
         </div>
       </div>
       <div style="background:#fff;padding:8px 16px;text-align:center;border-top:1px solid #eee">
@@ -841,7 +841,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
       var sid='s_'+Date.now()+'_'+Math.random().toString(36).substr(2,6);
       var visId=(function(){try{var v=localStorage.getItem('hs_vid');if(!v){v='v_'+Date.now()+'_'+Math.random().toString(36).substr(2,8);localStorage.setItem('hs_vid',v)}return v}catch(e){return 'v_'+Date.now()}})();
       var vn=(function(){try{var n=parseInt(localStorage.getItem('hs_vn')||'0')+1;localStorage.setItem('hs_vn',String(n));return n}catch(e){return 1}})();
-      var embedV=24;
+      var embedV=25;
       var ua=navigator.userAgent||'';
       var ref=document.referrer||'';
       var sw=screen.width||0;
@@ -1022,7 +1022,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
       var emailForm=document.getElementById('embed-lead-email-form');
       var toggleBtn=document.getElementById('embed-lead-toggle');
       var phoneFormEl=document.getElementById('embed-lead-phone-form');
-      var useEmail=false;
+      var useEmail=true;
       if(toggleBtn)toggleBtn.addEventListener('click',function(e){
         e.preventDefault();
         useEmail=!useEmail;
@@ -1150,6 +1150,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VideoObject", "name": "¿Molestias urinarias que no te dejan en paz?", "description": "Video informativo sobre Liluama - ¿Molestias urinarias que no te dejan en paz?", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/109_hero_liluama_c267.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/109_hero_liluama_c267.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "Lo que no te contaron sobre la cistitis", "description": "Video informativo sobre Liluama - Lo que no te contaron sobre la cistitis", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/46_curiosity_gap_education_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/46_curiosity_gap_education_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "¿Infección urinaria? Mira esto", "description": "Video informativo sobre Liluama - ¿Infección urinaria? Mira esto", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/64_question_education_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/64_question_education_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "Solución natural para el bienestar urinario", "description": "Video informativo sobre Liluama - Solución natural para el bienestar urinario", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/38_doctor_says_problem_solution_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/38_doctor_says_problem_solution_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "3 hábitos para prevenir la cistitis", "description": "Video informativo sobre Liluama - 3 hábitos para prevenir la cistitis", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/30_list_listicle_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/30_list_listicle_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "Lo que nadie te dice sobre la cistitis", "description": "Video informativo sobre Liluama - Lo que nadie te dice sobre la cistitis", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/23_shock_reveal_testimonial_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/23_shock_reveal_testimonial_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "Señales que tu cuerpo te envía", "description": "Video informativo sobre Liluama - Señales que tu cuerpo te envía", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/13_listicle_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/13_listicle_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}, {"@type": "VideoObject", "name": "¿Por qué se repite la infección urinaria?", "description": "Video informativo sobre Liluama - ¿Por qué se repite la infección urinaria?", "thumbnailUrl": "https://tapirro.github.io/hilart-shorts/thumbnails/16_curiosity_liluama.jpg", "contentUrl": "https://tapirro.github.io/hilart-shorts/videos/16_curiosity_liluama.mp4", "uploadDate": "2026-03-31", "duration": "PT15S", "embedUrl": "https://liluama.pe/"}]}</script>
   <!-- hilart-shorts-video-embed -->
 
+      
       
       
       
