@@ -802,7 +802,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
           <p style="margin:4px 0 0;font-size:0.78rem;color:#667781">Higiene + alimentación + prevención — te la envío al instante</p>
         </div>
         <div style="background:#fff;border-radius:8px 0 8px 8px;padding:10px 12px;margin-left:auto;max-width:90%">
-          <form id="embed-lead-phone-form" style="display:none;gap:8px;align-items:center">
+          <form id="embed-lead-phone-form" style="display:flex;gap:8px;align-items:center">
             <input name="phone" type="tel" placeholder="\ud83d\udcf1 912 345 678" required minlength="7"
               style="flex:1;padding:10px 12px;border:1.5px solid #ddd;border-radius:20px;font-size:0.95rem;outline:none;background:#f9f9f9">
             <button type="submit"
@@ -810,7 +810,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
               <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
             </button>
           </form>
-          <form id="embed-lead-email-form" style="display:flex;gap:8px;align-items:center">
+          <form id="embed-lead-email-form" style="display:none;gap:8px;align-items:center">
             <input name="email" type="email" placeholder="\u2709\ufe0f tu@email.com" required
               style="flex:1;padding:10px 12px;border:1.5px solid #ddd;border-radius:20px;font-size:0.95rem;outline:none;background:#f9f9f9">
             <button type="submit"
@@ -819,7 +819,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
             </button>
           </form>
           <p class="embed-lead-error" style="margin:4px 0 0;font-size:0.72rem;color:#dc2626"></p>
-          <a id="embed-lead-toggle" href="#" style="display:block;margin-top:6px;font-size:0.72rem;color:#2563eb;text-decoration:none;text-align:right">\u00bfPrefieres WhatsApp?</a>
+          <a id="embed-lead-toggle" href="#" style="display:block;margin-top:6px;font-size:0.72rem;color:#2563eb;text-decoration:none;text-align:right">\u00bfPrefieres email?</a>
         </div>
       </div>
       <div style="background:#fff;padding:8px 16px;text-align:center;border-top:1px solid #eee">
@@ -932,7 +932,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
             setTimeout(function(){f.style.display='none'},400);
             formDismissed=true;
             track('form_dismissed','',location.hostname);
-            setTimeout(function(){formShown=false},30000);
+            setTimeout(function(){formShown=false},15000);
           });
         }
         var skip=document.getElementById('embed-lead-skip');
@@ -944,7 +944,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
             setTimeout(function(){f.style.display='none'},400);
             formDismissed=true;
             track('form_dismissed','skip',location.hostname);
-            setTimeout(function(){formShown=false},30000);
+            setTimeout(function(){formShown=false},15000);
           });
         }
         track('form_show',formDismissed?'reshow':'',location.hostname);
@@ -1041,7 +1041,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
       var emailForm=document.getElementById('embed-lead-email-form');
       var toggleBtn=document.getElementById('embed-lead-toggle');
       var phoneFormEl=document.getElementById('embed-lead-phone-form');
-      var useEmail=true;
+      var useEmail=false;
       if(toggleBtn)toggleBtn.addEventListener('click',function(e){
         e.preventDefault();
         useEmail=!useEmail;
@@ -1168,6 +1168,8 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Cómo prevenir infecciones urinarias de forma natural?", "acceptedAnswer": {"@type": "Answer", "text": "Tres claves: jugo de arándano sin azúcar o cápsulas (impide que bacterias se adhieran a la vejiga), hidratación constante con 8 vasos de agua al día, y higiene correcta (siempre de adelante hacia atrás, ropa interior de algodón)."}}, {"@type": "Question", "name": "¿Qué tomar para las infecciones urinarias?", "acceptedAnswer": {"@type": "Answer", "text": "El arándano rojo es el más recomendado (jugo sin azúcar o cápsulas). También ayuda la vitamina C, probióticos y mucha agua. Si los síntomas persisten más de 48 horas, consulta a tu médico."}}]}</script>
   <!-- hilart-shorts-video-embed -->
 
+      
+      
       
       
       
