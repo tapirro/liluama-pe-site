@@ -845,7 +845,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
       var sid='s_'+Date.now()+'_'+Math.random().toString(36).substr(2,6);
       var visId=(function(){try{var v=localStorage.getItem('hs_vid');if(!v){v='v_'+Date.now()+'_'+Math.random().toString(36).substr(2,8);localStorage.setItem('hs_vid',v)}return v}catch(e){return 'v_'+Date.now()}})();
       var vn=(function(){try{var n=parseInt(localStorage.getItem('hs_vn')||'0')+1;localStorage.setItem('hs_vn',String(n));return n}catch(e){return 1}})();
-      var embedV=28;
+      var embedV=29;
       var ua=navigator.userAgent||'';
       var ref=document.referrer||'';
       var sw=screen.width||0;
@@ -1001,7 +1001,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
           if(hasPlayed)showLeadForm();
         });
         v.addEventListener('timeupdate',function(){
-          if(hasPlayed&&playStartTime&&(Date.now()-playStartTime)>8000)showLeadForm();
+          if(hasPlayed&&playStartTime&&(Date.now()-playStartTime)>5000)showLeadForm();
         });
       });
       // Lead form submission
@@ -1124,6 +1124,8 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
         },{threshold:0});
         scrollObs.observe(section);
       }
+      // Page-time trigger: show form after 20s if user has interacted (even without video click)
+      setTimeout(function(){if(hadInteraction&&!formShown)showLeadForm()},20000);
       // Floating video CTA — draws attention to video section when it's below the fold
       // Appears after 5s, pulses, scrolls to videos on tap, hides when section is visible
       if(section){
@@ -1168,6 +1170,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Cómo prevenir infecciones urinarias de forma natural?", "acceptedAnswer": {"@type": "Answer", "text": "Tres claves: jugo de arándano sin azúcar o cápsulas (impide que bacterias se adhieran a la vejiga), hidratación constante con 8 vasos de agua al día, y higiene correcta (siempre de adelante hacia atrás, ropa interior de algodón)."}}, {"@type": "Question", "name": "¿Qué tomar para las infecciones urinarias?", "acceptedAnswer": {"@type": "Answer", "text": "El arándano rojo es el más recomendado (jugo sin azúcar o cápsulas). También ayuda la vitamina C, probióticos y mucha agua. Si los síntomas persisten más de 48 horas, consulta a tu médico."}}, {"@type": "Question", "name": "¿Por qué las mujeres tienen más infecciones urinarias?", "acceptedAnswer": {"@type": "Answer", "text": "La uretra femenina es más corta (4 cm vs 20 cm en hombres), lo que facilita que las bacterias lleguen a la vejiga. Factores adicionales: relaciones sexuales, cambios hormonales en menopausia, uso de anticonceptivos, y retener la orina por mucho tiempo."}}, {"@type": "Question", "name": "¿Cuáles son los síntomas de infección urinaria en mujeres?", "acceptedAnswer": {"@type": "Answer", "text": "Síntomas típicos: ardor al orinar, ganas frecuentes de ir al baño (aunque sale poco), orina turbia o con olor fuerte, dolor en la parte baja del abdomen, y a veces sangre en la orina. Si tienes fiebre o dolor en la espalda baja, podría ser infección renal — consulta urgente."}}, {"@type": "Question", "name": "¿Es bueno el arándano para las vías urinarias?", "acceptedAnswer": {"@type": "Answer", "text": "Sí, estudios científicos confirman que el arándano rojo (cranberry) contiene proantocianidinas que impiden que la bacteria E. coli se adhiera a las paredes de la vejiga. Es más efectivo para prevención que para tratamiento. Usa jugo sin azúcar o cápsulas concentradas."}}]}</script>
   <!-- hilart-shorts-video-embed -->
 
+      
       
       
       
