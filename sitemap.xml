@@ -1,10 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+           xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://liluama.pe/</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-02</lastmod>
     <priority>1.0</priority>
     <changefreq>daily</changefreq>
+      <!-- hilart-shorts-video-sitemap -->
+    <video:video>
+      <video:thumbnail_loc>https://tapirro.github.io/hilart-shorts/thumbnails/109_hero_liluama_c267.jpg</video:thumbnail_loc>
+      <video:title>¿Molestias urinarias que no te dejan en paz?</video:title>
+      <video:description>Video informativo sobre Liluama - ¿Molestias urinarias que no te dejan en paz?</video:description>
+      <video:content_loc>https://tapirro.github.io/hilart-shorts/videos/109_hero_liluama_c267.mp4</video:content_loc>
+      <video:duration>15</video:duration>
+      <video:publication_date>2026-03-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tapirro.github.io/hilart-shorts/thumbnails/46_curiosity_gap_education_liluama.jpg</video:thumbnail_loc>
+      <video:title>Lo que no te contaron sobre la cistitis</video:title>
+      <video:description>Video informativo sobre Liluama - Lo que no te contaron sobre la cistitis</video:description>
+      <video:content_loc>https://tapirro.github.io/hilart-shorts/videos/46_curiosity_gap_education_liluama.mp4</video:content_loc>
+      <video:duration>15</video:duration>
+      <video:publication_date>2026-03-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tapirro.github.io/hilart-shorts/thumbnails/64_question_education_liluama.jpg</video:thumbnail_loc>
+      <video:title>¿Infección urinaria? Mira esto</video:title>
+      <video:description>Video informativo sobre Liluama - ¿Infección urinaria? Mira esto</video:description>
+      <video:content_loc>https://tapirro.github.io/hilart-shorts/videos/64_question_education_liluama.mp4</video:content_loc>
+      <video:duration>15</video:duration>
+      <video:publication_date>2026-03-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tapirro.github.io/hilart-shorts/thumbnails/38_doctor_says_problem_solution_liluama.jpg</video:thumbnail_loc>
+      <video:title>Solución natural para el bienestar urinario</video:title>
+      <video:description>Video informativo sobre Liluama - Solución natural para el bienestar urinario</video:description>
+      <video:content_loc>https://tapirro.github.io/hilart-shorts/videos/38_doctor_says_problem_solution_liluama.mp4</video:content_loc>
+      <video:duration>15</video:duration>
+      <video:publication_date>2026-03-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tapirro.github.io/hilart-shorts/thumbnails/30_list_listicle_liluama.jpg</video:thumbnail_loc>
+      <video:title>3 hábitos para prevenir la cistitis</video:title>
+      <video:description>Video informativo sobre Liluama - 3 hábitos para prevenir la cistitis</video:description>
+      <video:content_loc>https://tapirro.github.io/hilart-shorts/videos/30_list_listicle_liluama.mp4</video:content_loc>
+      <video:duration>15</video:duration>
+      <video:publication_date>2026-03-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tapirro.github.io/hilart-shorts/thumbnails/23_shock_reveal_testimonial_liluama.jpg</video:thumbnail_loc>
+      <video:title>Lo que nadie te dice sobre la cistitis</video:title>
+      <video:description>Video informativo sobre Liluama - Lo que nadie te dice sobre la cistitis</video:description>
+      <video:content_loc>https://tapirro.github.io/hilart-shorts/videos/23_shock_reveal_testimonial_liluama.mp4</video:content_loc>
+      <video:duration>15</video:duration>
+      <video:publication_date>2026-03-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tapirro.github.io/hilart-shorts/thumbnails/13_listicle_liluama.jpg</video:thumbnail_loc>
+      <video:title>Señales que tu cuerpo te envía</video:title>
+      <video:description>Video informativo sobre Liluama - Señales que tu cuerpo te envía</video:description>
+      <video:content_loc>https://tapirro.github.io/hilart-shorts/videos/13_listicle_liluama.mp4</video:content_loc>
+      <video:duration>15</video:duration>
+      <video:publication_date>2026-03-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://tapirro.github.io/hilart-shorts/thumbnails/16_curiosity_liluama.jpg</video:thumbnail_loc>
+      <video:title>¿Por qué se repite la infección urinaria?</video:title>
+      <video:description>Video informativo sobre Liluama - ¿Por qué se repite la infección urinaria?</video:description>
+      <video:content_loc>https://tapirro.github.io/hilart-shorts/videos/16_curiosity_liluama.mp4</video:content_loc>
+      <video:duration>15</video:duration>
+      <video:publication_date>2026-03-31</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
   <url>
     <loc>https://liluama.pe/plantas/</loc>
