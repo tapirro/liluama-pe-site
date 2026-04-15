@@ -1,84 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-           xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://liluama.pe/</loc>
-    <lastmod>2026-04-02</lastmod>
+    <lastmod>2026-04-12</lastmod>
     <priority>1.0</priority>
     <changefreq>daily</changefreq>
-      <!-- hilart-shorts-video-sitemap -->
-    <video:video>
-      <video:thumbnail_loc>https://storage.googleapis.com/mamitu-ai-videos/thumbnails/119_hero_liluama_c312.jpg</video:thumbnail_loc>
-      <video:title>¿Molestias urinarias que no te dejan en paz?</video:title>
-      <video:description>Video informativo sobre Liluama - ¿Molestias urinarias que no te dejan en paz?</video:description>
-      <video:content_loc>https://storage.googleapis.com/mamitu-ai-videos/videos/119_hero_liluama_c312.mp4</video:content_loc>
-      <video:duration>15</video:duration>
-      <video:publication_date>2026-03-31</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://storage.googleapis.com/mamitu-ai-videos/thumbnails/46_curiosity_gap_education_liluama.jpg</video:thumbnail_loc>
-      <video:title>Lo que no te contaron sobre la cistitis</video:title>
-      <video:description>Video informativo sobre Liluama - Lo que no te contaron sobre la cistitis</video:description>
-      <video:content_loc>https://storage.googleapis.com/mamitu-ai-videos/videos/46_curiosity_gap_education_liluama.mp4</video:content_loc>
-      <video:duration>15</video:duration>
-      <video:publication_date>2026-03-31</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://storage.googleapis.com/mamitu-ai-videos/thumbnails/64_question_education_liluama.jpg</video:thumbnail_loc>
-      <video:title>¿Infección urinaria? Mira esto</video:title>
-      <video:description>Video informativo sobre Liluama - ¿Infección urinaria? Mira esto</video:description>
-      <video:content_loc>https://storage.googleapis.com/mamitu-ai-videos/videos/64_question_education_liluama.mp4</video:content_loc>
-      <video:duration>15</video:duration>
-      <video:publication_date>2026-03-31</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://storage.googleapis.com/mamitu-ai-videos/thumbnails/38_doctor_says_problem_solution_liluama.jpg</video:thumbnail_loc>
-      <video:title>Solución natural para el bienestar urinario</video:title>
-      <video:description>Video informativo sobre Liluama - Solución natural para el bienestar urinario</video:description>
-      <video:content_loc>https://storage.googleapis.com/mamitu-ai-videos/videos/38_doctor_says_problem_solution_liluama.mp4</video:content_loc>
-      <video:duration>15</video:duration>
-      <video:publication_date>2026-03-31</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://storage.googleapis.com/mamitu-ai-videos/thumbnails/30_list_listicle_liluama.jpg</video:thumbnail_loc>
-      <video:title>3 hábitos para prevenir la cistitis</video:title>
-      <video:description>Video informativo sobre Liluama - 3 hábitos para prevenir la cistitis</video:description>
-      <video:content_loc>https://storage.googleapis.com/mamitu-ai-videos/videos/30_list_listicle_liluama.mp4</video:content_loc>
-      <video:duration>15</video:duration>
-      <video:publication_date>2026-03-31</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://storage.googleapis.com/mamitu-ai-videos/thumbnails/23_shock_reveal_testimonial_liluama.jpg</video:thumbnail_loc>
-      <video:title>Lo que nadie te dice sobre la cistitis</video:title>
-      <video:description>Video informativo sobre Liluama - Lo que nadie te dice sobre la cistitis</video:description>
-      <video:content_loc>https://storage.googleapis.com/mamitu-ai-videos/videos/23_shock_reveal_testimonial_liluama.mp4</video:content_loc>
-      <video:duration>15</video:duration>
-      <video:publication_date>2026-03-31</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://storage.googleapis.com/mamitu-ai-videos/thumbnails/13_listicle_liluama.jpg</video:thumbnail_loc>
-      <video:title>Señales que tu cuerpo te envía</video:title>
-      <video:description>Video informativo sobre Liluama - Señales que tu cuerpo te envía</video:description>
-      <video:content_loc>https://storage.googleapis.com/mamitu-ai-videos/videos/13_listicle_liluama.mp4</video:content_loc>
-      <video:duration>15</video:duration>
-      <video:publication_date>2026-03-31</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
-    <video:video>
-      <video:thumbnail_loc>https://storage.googleapis.com/mamitu-ai-videos/thumbnails/16_curiosity_liluama.jpg</video:thumbnail_loc>
-      <video:title>¿Por qué se repite la infección urinaria?</video:title>
-      <video:description>Video informativo sobre Liluama - ¿Por qué se repite la infección urinaria?</video:description>
-      <video:content_loc>https://storage.googleapis.com/mamitu-ai-videos/videos/16_curiosity_liluama.mp4</video:content_loc>
-      <video:duration>15</video:duration>
-      <video:publication_date>2026-03-31</video:publication_date>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
   </url>
   <url>
     <loc>https://liluama.pe/plantas/</loc>
@@ -235,5 +161,203 @@
     <lastmod>2026-03-28</lastmod>
     <priority>0.5</priority>
     <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-infeccion-urinaria/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-cistitis/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-calculos-renales/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-ardor-al-orinar/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-dolor-de-rinones/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-retencion-de-liquidos/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-incontinencia-urinaria/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-infeccion-vaginal/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-prostatitis/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-vejiga-hiperactiva/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-dolor-pelvico/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-olor-fuerte-en-orina/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-arenilla-en-rinones/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-nefritis/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-urgencia-urinaria/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-piedras-en-la-vejiga/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-uretritis/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-nocturia/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-orina-con-espuma/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-prostatitis-urinaria/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-infeccion-renal/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-cistitis-recurrente/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-riñon-poliquistico/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-dolor-de-riñones/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-cicatrizacion-heridas/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-sistema-inmune-debil/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-inflamacion-cronica/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-anemia-ferropenica/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-ulcera-gastrica/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/ingredientes/arandano-rojo/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/ingredientes/d-manosa/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/ingredientes/uva-ursi/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liluama.pe/opiniones/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
