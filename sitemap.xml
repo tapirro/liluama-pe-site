@@ -199,6 +199,12 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/para-acido-urico-alto/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/para-anemia-ferropenica/</loc>
     <lastmod>2026-04-15</lastmod>
     <priority>0.8</priority>
@@ -241,6 +247,18 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/para-colico-renal/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-creatinina-alta/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/para-dolor-de-rinones/</loc>
     <lastmod>2026-04-15</lastmod>
     <priority>0.8</priority>
@@ -253,7 +271,25 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/para-dolor-lumbar-renal/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/para-dolor-pelvico/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-edema-renal/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-hematuria/</loc>
     <lastmod>2026-04-15</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
@@ -266,6 +302,12 @@
   </url>
   <url>
     <loc>https://liluama.pe/para-infeccion-renal/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-infeccion-urinaria-recurrente/</loc>
     <lastmod>2026-04-15</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
@@ -284,6 +326,12 @@
   </url>
   <url>
     <loc>https://liluama.pe/para-inflamacion-cronica/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-insuficiencia-renal-leve/</loc>
     <lastmod>2026-04-15</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
@@ -319,6 +367,12 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/para-pielonefritis/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/para-prostatitis-urinaria/</loc>
     <lastmod>2026-04-15</lastmod>
     <priority>0.8</priority>
@@ -326,6 +380,12 @@
   </url>
   <url>
     <loc>https://liluama.pe/para-prostatitis/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/para-proteina-en-orina/</loc>
     <lastmod>2026-04-15</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
@@ -551,65 +611,5 @@
     <lastmod>2026-04-15</lastmod>
     <priority>0.5</priority>
     <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://liluama.pe/para-edema-renal/</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://liluama.pe/para-proteina-en-orina/</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://liluama.pe/para-infeccion-urinaria-recurrente/</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://liluama.pe/para-dolor-lumbar-renal/</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://liluama.pe/para-creatinina-alta/</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://liluama.pe/para-colico-renal/</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://liluama.pe/para-pielonefritis/</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://liluama.pe/para-acido-urico-alto/</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://liluama.pe/para-hematuria/</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://liluama.pe/para-insuficiencia-renal-leve/</loc>
-    <lastmod>2026-04-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 </urlset>
