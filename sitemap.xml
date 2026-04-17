@@ -649,6 +649,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/condiciones/bacteriuria-asintomatica/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/condiciones/calculos-renales/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -673,7 +679,19 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/condiciones/cistocele/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/condiciones/diabetes-y-rinones/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/condiciones/disuria-cronica/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -691,6 +709,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/condiciones/dolor-flancos/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/condiciones/dolor-lumbar-renal/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -703,7 +727,31 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/condiciones/embarazo-edema/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/condiciones/embarazo-infeccion-urinaria/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/condiciones/enfermedad-renal-cronica-prevencion/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/condiciones/enuresis-adultos/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/condiciones/espasmo-vesical/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -716,6 +764,12 @@
   </url>
   <url>
     <loc>https://liluama.pe/condiciones/hematuria/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/condiciones/hiperfosfatemia/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -751,6 +805,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/condiciones/insuficiencia-renal-prevencion/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/condiciones/litiasis-renal-prevencion/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -769,7 +829,19 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/condiciones/microalbuminuria/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/condiciones/nefritis-prevencion/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/condiciones/nefrolitiasis-recurrente/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -787,6 +859,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/condiciones/oxaluria/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/condiciones/ph-urinario/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -794,6 +872,12 @@
   </url>
   <url>
     <loc>https://liluama.pe/condiciones/pielonefritis-prevencion/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/condiciones/poliuria/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
