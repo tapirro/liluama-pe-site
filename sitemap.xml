@@ -499,6 +499,12 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/ingredientes/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/ingredientes/arandano-rojo/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.7</priority>
@@ -637,6 +643,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/condiciones/acido-urico-y-rinones/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/condiciones/andropausia/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -663,6 +675,12 @@
   <url>
     <loc>https://liluama.pe/condiciones/cistitis-intersticial/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/condiciones/cistitis-por-relaciones/</loc>
+    <lastmod>2026-04-17</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -717,6 +735,12 @@
   <url>
     <loc>https://liluama.pe/condiciones/dolor-lumbar-renal/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/condiciones/edema-por-retencion-de-liquidos/</loc>
+    <lastmod>2026-04-17</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -789,6 +813,12 @@
   <url>
     <loc>https://liluama.pe/condiciones/infeccion-urinaria-hombres/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/condiciones/infeccion-urinaria-menopausia/</loc>
+    <lastmod>2026-04-17</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -889,6 +919,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/condiciones/prevencion-calculos-segunda-vez/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/condiciones/proteinuria/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -897,6 +933,12 @@
   <url>
     <loc>https://liluama.pe/condiciones/retencion-urinaria/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/condiciones/rinones-y-medicamentos/</loc>
+    <lastmod>2026-04-17</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -938,6 +980,36 @@
   </url>
   <url>
     <loc>https://liluama.pe/acerca/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/ingrediente/alcachofa/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/ingrediente/arandano/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/ingrediente/chancapiedra/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/ingrediente/cola-de-caballo/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/ingrediente/una-de-gato/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.5</priority>
     <changefreq>monthly</changefreq>
