@@ -871,6 +871,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/condiciones/infeccion-urinaria-embarazo/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/condiciones/infeccion-urinaria-hombres/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -975,6 +981,12 @@
   <url>
     <loc>https://liluama.pe/condiciones/nicturia-femenina/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/condiciones/nocturia-personas-mayores/</loc>
+    <lastmod>2026-04-17</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -1087,7 +1099,25 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/condiciones/riñones-y-ayuno-intermitente/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/condiciones/riñones-y-diabetes-peru/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/condiciones/riñones-y-hipertension/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/condiciones/riñones-y-mineria-peru/</loc>
     <lastmod>2026-04-17</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
