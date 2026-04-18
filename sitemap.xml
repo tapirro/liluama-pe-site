@@ -493,6 +493,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/ingrediente/cromo/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/ingrediente/d-manosa/</loc>
     <lastmod>2026-04-17</lastmod>
     <priority>0.7</priority>
@@ -507,6 +513,12 @@
   <url>
     <loc>https://liluama.pe/ingrediente/gayuba/</loc>
     <lastmod>2026-04-17</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/ingrediente/hierro/</loc>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -541,6 +553,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/ingrediente/potasio/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/ingrediente/probioticos-urinarios/</loc>
     <lastmod>2026-04-17</lastmod>
     <priority>0.7</priority>
@@ -561,6 +579,12 @@
   <url>
     <loc>https://liluama.pe/ingrediente/una-de-gato/</loc>
     <lastmod>2026-04-17</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/ingrediente/vitamina-a/</loc>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -979,6 +1003,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/condiciones/estenosis-uretral/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/condiciones/glaucoma/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -993,6 +1023,12 @@
   <url>
     <loc>https://liluama.pe/condiciones/hematuria/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/condiciones/hidronefrosis/</loc>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -1089,6 +1125,12 @@
   <url>
     <loc>https://liluama.pe/condiciones/infeccion-urinaria/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://liluama.pe/condiciones/insuficiencia-renal-cronica/</loc>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -1231,6 +1273,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://liluama.pe/condiciones/reflujo-vesicoureteral/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://liluama.pe/condiciones/retencion-urinaria/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -1349,53 +1397,5 @@
     <lastmod>2026-04-16</lastmod>
     <priority>0.5</priority>
     <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://liluama.pe/condiciones/hidronefrosis/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://liluama.pe/condiciones/insuficiencia-renal-cronica/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://liluama.pe/condiciones/reflujo-vesicoureteral/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://liluama.pe/condiciones/estenosis-uretral/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://liluama.pe/ingrediente/vitamina-a/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://liluama.pe/ingrediente/hierro/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://liluama.pe/ingrediente/potasio/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://liluama.pe/ingrediente/cromo/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 </urlset>
