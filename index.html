@@ -2240,5 +2240,21 @@ function submitLead(e, location) {
 <a href="/para-vejiga-hiperactiva/" style="display:inline-block;padding:0.35rem 0.7rem;margin:0.2rem;background:#f0f7f0;border:1px solid #c8e6c9;border-radius:4px;color:#2e7d32;text-decoration:none;font-size:0.82rem;transition:background 0.2s">Vejiga Hiperactiva</a>
   </div>
 </nav>
+
+<div class="sticky-cta-bar"><a href="#lead-form-hero">Pedir ahora — Envío gratis</a></div>
+
+<!-- Sticky CTA visibility: hide when form is on screen -->
+<script>
+(function(){
+  var bar = document.querySelector('.sticky-cta-bar');
+  if (!bar) return;
+  var form = document.querySelector('.lead-form, form[action*="lead-capture"]');
+  if (!form) { bar.style.display = 'block'; return; }
+  var io = new IntersectionObserver(function(entries){
+    bar.style.display = entries[0].isIntersecting ? 'none' : 'block';
+  }, {threshold: 0.1});
+  io.observe(form);
+})();
+</script>
 </body>
 </html>
